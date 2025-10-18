@@ -3,6 +3,8 @@ Deep Learning-based Rail Surface Condition Evaluation
 
 Shilin Hu, Ke Ma, Sagnik Das, Dichang Zhang, Dimitris Samaras. ICCVW 2025.
 
+Accepted by the 3rd workshop on Vision-based InduStrial InspectiON(VISION).
+
 ## Benchmark Dataset: TTC / Anomaly subset
 Public access is pending FRA approval. The download link will be posted once approved.
 
