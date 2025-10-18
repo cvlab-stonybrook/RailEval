@@ -21,7 +21,7 @@ The code is tested with python==3.7, torch==1.12.1, and CUDA ≥ 11.3.
 To train the model, run 
 
 ```sh
-python train_cls.py --dataroot ./cvdata_ttc/train_X.pkl --name TTC_X --dataset_mode railnewdata --model railnewdata --checkpoints_dir $ckpt
+python train_cls.py --dataroot ./cvdata_ttc/train_X.pkl --name TTC_X --checkpoints_dir $ckpt
 ```
 
 **Note:** We use 4-fold cross-validation; the splits are provided in `cvdata_ttc`. Run the command for each of the four splits to reproduce the full results. The segmentation and alignment modules are pre-trained; update the paths in `models/rail_newdata.py` before training.
@@ -32,7 +32,7 @@ Our checkpoints are available at [GoogleDrive](https://drive.google.com/drive/fo
 To test the model, run
 
 ```sh
-python test_cls.py --dataroot ./cvdata_ttc/test_X.pkl --name TTC_X --dataset_mode railnewdata --model railnewdata --checkpoints_dir $ckpt --results_dir $res_dir
+python test_cls.py --dataroot ./cvdata_ttc/test_X.pkl --name TTC_X --checkpoints_dir $ckpt --results_dir $res_dir
 ```
 
 ## Acknowledgements
