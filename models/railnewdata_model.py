@@ -29,7 +29,7 @@ class RailNewDataModel(BaseModel):
     def modify_commandline_options(parser, is_train=True):
         """Add new model-specific options and rewrite default values for existing options.
         """
-        parser.set_defaults(dataset_mode='railunion', input_nc=3, output_nc=1, load_size=512, classifier='resnet18', segmodule='mobilenet', lr=1e-4, n_epochs=0, n_epochs_decay=100, batch_size=10)
+        parser.set_defaults(dataset_mode='railunion', input_nc=3, output_nc=1, load_size=512, classifier='resnet18', segmodule='mobilenet', lr=1e-4, n_epochs=0, n_epochs_decay=50, batch_size=10)
 
         return parser
 
