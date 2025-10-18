@@ -1,4 +1,4 @@
-"""Dataset class template
+"""Dataset class
 Segmentation + Alignment module
 """
 from data.base_dataset import BaseDataset

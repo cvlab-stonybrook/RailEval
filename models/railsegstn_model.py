@@ -1,4 +1,4 @@
-"""Model class template
+"""Model class
 For Segmentation and Alignment
 """
 import torch

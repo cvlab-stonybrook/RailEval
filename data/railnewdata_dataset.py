@@ -1,4 +1,5 @@
-"""Dataset class template
+"""Dataset class
+Load TTC data for training and testing
 """
 from data.base_dataset import BaseDataset, get_transform, get_params
 from PIL import Image, ImageDraw

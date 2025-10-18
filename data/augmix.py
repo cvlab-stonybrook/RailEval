@@ -17,7 +17,7 @@ import pdb
 import torchvision.transforms as transforms
 from itertools import permutations 
 # import data.ImageSmoothingAlgorithmBasedOnGradientAnalysis.fga.filter_based_on_gradient_analysis as fga
-  
+
 
 def int_parameter(level, maxval):
     """Helper function to scale `val` between 0 and maxval .
