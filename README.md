@@ -40,5 +40,5 @@ This work was sponsored by the Federal Railroad Administration and a gift from N
 We also thank KLD Labs for their support and collaboration.
 
 ## Miscellanous
-The base codes are from [@junyanz](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+Some parts of the code are based on [@junyanz](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [@PRBonn](https://github.com/PRBonn/bonnetal).
 
