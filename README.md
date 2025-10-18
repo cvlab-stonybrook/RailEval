@@ -35,3 +35,10 @@ To test the model, run
 python test_cls.py --dataroot ./cvdata_ttc/test_X.pkl --name TTC_X --dataset_mode railnewdata --model railnewdata --checkpoints_dir $ckpt --results_dir $res_dir
 ```
 
+## Acknowledgements
+This work was sponsored by the Federal Railroad Administration and a gift from NVIDIA Corp.  
+We also thank KLD Labs for their support and collaboration.
+
+## Miscellanous
+The base codes are from [@junyanz](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+
