@@ -24,7 +24,7 @@ To train the model, run
 python train_cls.py --dataroot ./cvdata_ttc/train_X.pkl --name TTC_X --checkpoints_dir $ckpt
 ```
 
-**Note:** We use 4-fold cross-validation; the splits are provided in `cvdata_ttc`. Run the command for each of the four splits to reproduce the full results. The segmentation and alignment modules are pre-trained; update the paths in `models/rail_newdata.py` before training.
+**Note:** We use 4-fold cross-validation; the splits are provided in `./cvdata_ttc`. Run the command for each of the four splits to reproduce the full results. The segmentation and alignment modules are pre-trained; update the paths in `./models/rail_newdata.py` before training.
 
 ## Evaluate
 Our checkpoints are available at [GoogleDrive](https://drive.google.com/drive/folders/1xSCAeFemBYMPoM0E13jSmitmANZTJEbD?usp=drive_link)
